@@ -1,0 +1,44 @@
+# for key in possible_cities.keys():
+#     # na wypadek gdyby żadne nie było na tyle prawdopodobne
+#     if possible_cities[key] > p_ij:
+#         p_ij = possible_cities[key]
+#         city_with_best_probability = key
+#     random_number = random.randint(0, 100) / 90.0
+#
+#     # jeśli prawdopodobienstwo sprzyja
+#     if random_number < possible_cities[key]/p_sum:
+#         choosen_city = key
+#         break
+#
+#     # wybierz najbardziej prawdopodobne
+#     if choosen_city == -1:
+#         choosen_city = city_with_best_probability
+
+
+# for possible_city in range(matrix.length):
+#     if possible_city in current_ant.tabu_list:
+#         continue
+#     if matrix.matrix[current_ant.current_vertex][possible_city] == 0 or matrix.matrix[current_ant.current_vertex][possible_city] == -1:
+#         continue
+#     p = matrix.pheromone_matrix[current_ant.current_vertex][possible_city]**alpha \
+#         * (1 / matrix.matrix[current_ant.current_vertex][possible_city]) ** beta
+#     # print("P " + str(p/p_sum))
+#
+#     # na wypadek gdyby żadne nie było na tyle prawdopodobne
+#     if p > p_ij:
+#         p_ij = p
+#         city_with_best_probability = possible_city
+#     # random_number = random.randint(0, 100)/100.0
+#
+#     # jeśli prawdopodobienstwo sprzyja
+#     if p_sum != 0:
+#         possible_cities[possible_city] = p/float(p_sum)
+#         # if random_number < p/p_sum:
+#         #     choosen_city = possible_city
+#         #     break
+#
+#     # wybierz najbardziej prawdopodobne
+#     if choosen_city == -1:
+#         choosen_city = city_with_best_probability
+
+# choosen_city = random.choices(list(possible_cities.keys()), list(possible_cities.values()), k=1)[0]

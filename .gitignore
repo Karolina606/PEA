@@ -1,6 +1,12 @@
-*/.idea
-*/build
-*/dist
+.idea
+build
+dist
 packed
 */__pycache__
-*/WAZNE/*
+WAZNE
+*.zip
+*.exe
+*.doc
+*.docx
+*.xls;xlsx;csv
+instances

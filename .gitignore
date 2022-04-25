@@ -9,4 +9,4 @@ WAZNE
 *.doc
 *.docx
 *.xls;xlsx;csv
-instances
+/instances/

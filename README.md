@@ -16,11 +16,11 @@ W katalogu każdej metody znajduje się folder **/dokumentacja** z raportem z da
 ### **kom1**
 Metoda siłowa (Brute Force),
 
-### **kom2**
-Metoda najlepszego wyszukania (Best search),
-
 ### **kom_dp**
 Metoda programowania dynamicznego (Dynamic programming),
+
+### **kom3**
+Metoda rozgałęzień (BxB, Best search),
 
 ### **kom4**
 Metoda symulowanego wyżarzania (Simulated annealing),
@@ -28,5 +28,5 @@ Metoda symulowanego wyżarzania (Simulated annealing),
 ### **kom5**
 Metoda przeszukiwań z zakazami (Tabu search),
 
-### **kom5**
+### **kom7**
 Metoda mrówkowa (Ant colony optimization).
